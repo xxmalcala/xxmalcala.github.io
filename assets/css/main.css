@@ -99,8 +99,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #474747;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 16pt;
+		font-family: 'Helvetica', sans-serif;
+		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.65em;
 	}
@@ -155,10 +155,15 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.2em;
+		font-size: 1.4em;
 		letter-spacing: -0.025em;
 	}
 
+	h4 {
+		font-size: 1.1em;
+		letter-spacing: -0.025em;
+	}
+	
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -2551,6 +2556,7 @@ input, select, textarea {
 			}
 
 	#nav {
+		text-align: center;
 		cursor: default;
 		background-color: #333;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
